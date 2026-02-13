@@ -1,0 +1,31 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+streamlit==1.29.0
+sqlalchemy==2.0.23
+pydantic==2.5.0
+requests==2.31.0
+plotly==5.18.0
+
+# Data processing
+numpy==1.26.4
+pandas==2.1.4
+pyarrow==14.0.1
+
+# REAL INTERACTION CAPTURE (NEW)
+pynput==1.7.6
+
+# Platform-specific (install based on your OS)
+# Windows:
+pywin32==305
+
+# Mac:
+pyobjc-framework-Cocoa==9.0.1
+pyobjc-framework-Quartz==9.0.1
+
+# Linux:
+python-xlib==0.33
+
+# Optional
+python-multipart==0.0.6
+python-dotenv==1.0.0
